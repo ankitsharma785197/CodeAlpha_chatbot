@@ -34,7 +34,13 @@ This is a Ai Chat Bot Application built using HTML, CSS, JavaScript, and Php Web
     composer require cboden/ratchet
     ```
 
-3. Run the WebSocket server:
+2. Update your openai api-key:
+
+    ```php
+    $apiKey = '';
+    ```
+
+4. Run the WebSocket server:
 
     ```bash
     php server.php
